@@ -13,3 +13,7 @@ A **sensitivity analysis** examines the effects of CatBoost hyperparameters, lea
 Experiments on benchmark **Indian Pines** and **Salinas** datasets demonstrate Cat-FSL’s ability to handle high spectral dimensionality, limited labeled data, and spectral overlap. The model preserves **spatial heterogeneity across scales** (validated through lacunarity analysis), generates **resilient prototypes** (high ARI), and enhances **inter-class margins** (verified by Prototype Separation Ratio and inter-class distance). Improved label agreement with ground truth is reflected by higher **Kappa scores**.
 
 **Cat-FSL achieves state-of-the-art performance** with **98.92% accuracy on Indian Pines** and **98.19% on Salinas**, ensuring superior prototype stability, inter-class separability, and generalization under few-shot conditions. This demonstrates Cat-FSL’s potential as a robust **spectral-spatial meta-learning** framework that combines the interpretability of CatBoost with the representational power of CNNs for reliable HSI classification under data-scarce scenarios.
+
+
+## License
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
