@@ -4,8 +4,7 @@
 ![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red.svg)
 ![CatBoost](https://img.shields.io/badge/Model-CatBoost-orange.svg)
 ![GPU](https://img.shields.io/badge/GPU-CUDA%20Enabled-green.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
-
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)
 ---
 
 ## 📘 Overview
@@ -129,16 +128,6 @@ Validated on **Indian Pines** and **Salinas**, Cat-FSL achieves **state-of-the-a
 
 ---
 
-## 🧑‍💻 Author
-
-**Ushneesh Chattopadhyay**  
-Department of Computer Science and Engineering  
-Institute of Engineering and Management (IEM), Kolkata, India  
-
-📧 [ushneesh2003chattopadhyay@gmail.com](mailto:ushneesh2003chattopadhyay@gmail.com)
-
----
-
 ## 📜 License
 
 This project is licensed under the  
@@ -165,4 +154,11 @@ India
 If you use this repository or model in your research, please cite:
 
 > Chattopadhyay, U., Das Bhattacharjee, A., Chakravarty, D.  
-> *“Hybrid CatBoost-Based Few-Shot Learning Model for Inter-Class Classification in Hyperspectral Images.”*  
+> *“Hybrid CatBoost-Based Few-Shot Learning Model for Inter-Class Classification in Hyperspectral Images.”*
+ 
+---
+
+## 📬 Contact
+
+For questions, collaborations, or citation requests:  
+📧 [chattopadhyayushneesh2003@gmail.com](mailto:chattopadhyayushneesh2003@gmail.com)
