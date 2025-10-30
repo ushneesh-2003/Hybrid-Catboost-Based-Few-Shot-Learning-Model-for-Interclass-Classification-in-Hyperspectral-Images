@@ -1,55 +1,18 @@
 # Hybrid-Catboost-Based-Few-Shot-Learning-Model-for-Interclass-Classification-in-Hyperspectral-Images
 Cat-FSL is a hybrid CatBoost-based Few-Shot Learning model combining global CatBoost features and CNN spectral embeddings for robust HSI classification. It enhances inter-class separability via Prototypical Networks and Optimal Distortion Search.
 
-🧠 Cat-FSL: Hybrid CatBoost-Based Few-Shot Learning for Hyperspectral Image Classification
+# 🧠 Cat-FSL: Hybrid CatBoost-Based Few-Shot Learning for Hyperspectral Image Classification
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-red.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+**Cat-FSL** is a hybrid **CatBoost-based Few-Shot Learning (FSL)** framework designed to improve **inter-class classification** in **Hyperspectral Images (HSI)** under limited labeled data conditions. The model employs a **dual-path architecture** that integrates **CatBoost-derived global probabilistic features** with **CNN-based local spectral embeddings**, enabling robust prototype learning and enhanced class separability.
 
+In this framework, the **CatBoost branch** captures global class dependencies through gradient-boosted decision ensembles, while the **CNN branch** extracts refined local spectral patterns using deep convolutional encoding. The fused outputs are processed by a **Prototypical Network** to learn a discriminative metric space and generate stable class prototypes for few-shot classification. An **Optimal Distortion Search (ODS)** mechanism is incorporated to enhance robustness against spectral distortions and optimize feature consistency.
 
+A **sensitivity analysis** examines the effects of CatBoost hyperparameters, learning rate, and iteration count on model performance, evaluated using **accuracy**, **Kappa coefficient** (label agreement), and **Adjusted Rand Index (ARI)** (clustering quality). Cat-FSL consistently outperforms baseline few-shot models (Base-FSL, Aug-FSL) and traditional classifiers (XGBoost, AdaBoost, CatBoost).
 
+Experiments on benchmark **Indian Pines** and **Salinas** datasets demonstrate Cat-FSL’s ability to handle high spectral dimensionality, limited labeled data, and spectral overlap. The model preserves **spatial heterogeneity across scales** (validated through lacunarity analysis), generates **resilient prototypes** (high ARI), and enhances **inter-class margins** (verified by Prototype Separation Ratio and inter-class distance). Improved label agreement with ground truth is reflected by higher **Kappa scores**.
 
-Cat-FSL is a novel hybrid Few-Shot Learning (FSL) framework designed to enhance inter-class classification in Hyperspectral Images (HSI) under limited labeled data conditions.
-The architecture combines CatBoost-derived global probabilistic features and CNN-based local spectral embeddings using a dual-path design, enabling robust prototype learning and superior class separability.
-
-🚀 Key Features
-
-Dual-Path Architecture:
-Combines CatBoost (global dependencies) and CNN (local spectral refinement) for balanced feature representation.
-
-Prototypical Network Fusion:
-Merges both feature streams to learn a discriminative metric space and generate stable class prototypes.
-
-Optimal Distortion Search (ODS):
-Enhances robustness against spectral distortions and improves generalization.
-
-Comprehensive Sensitivity Analysis:
-Evaluates the effects of CatBoost hyperparameters, learning rate, and iteration count using:
-
-Accuracy
-
-Kappa Coefficient (label agreement)
-
-Adjusted Rand Index (ARI, clustering quality)
-
-📊 Performance Highlights
-
-Datasets: Indian Pines, Salinas
-
-Accuracy: 98.92% (Indian Pines) | 98.19% (Salinas)
-
-Outperforms: Base-FSL, Aug-FSL, XGBoost, AdaBoost, and standalone CatBoost
-
-Enhanced Metrics
-
-Higher prototype resilience (↑ ARI)
-
-Stronger inter-class separability (↑ Prototype Separation Ratio, inter-class distance)
-
-Improved label agreement (↑ Kappa)
-
-Preserved spatial heterogeneity (via lacunarity analysis)
-
-🧩 Summary
-
-Cat-FSL achieves state-of-the-art performance in few-shot HSI classification by integrating global CatBoost insights with local CNN-based spectral encoding.
-It delivers robust generalization, resilient prototypes, and superior class discrimination under few-shot conditions, proving its potential as a reliable spectral-spatial meta-learning framework.
+**Cat-FSL achieves state-of-the-art performance** with **98.92% accuracy on Indian Pines** and **98.19% on Salinas**, ensuring superior prototype stability, inter-class separability, and generalization under few-shot conditions. This demonstrates Cat-FSL’s potential as a robust **spectral-spatial meta-learning** framework that combines the interpretability of CatBoost with the representational power of CNNs for reliable HSI classification under data-scarce scenarios.
