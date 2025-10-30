@@ -1,4 +1,4 @@
-# 🧠 Cat-FSL: Hybrid CatBoost-Based Few-Shot Learning for Hyperspectral Image Classification
+# Cat-FSL: Hybrid CatBoost-Based Few-Shot Learning for Hyperspectral Image Classification
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-red.svg)
