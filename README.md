@@ -139,12 +139,27 @@ Institute of Engineering and Management (IEM), Kolkata, India
 
 ---
 
-## License
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-Usage and redistribution permitted with proper citation.
+## 📜 License
+
+This project is licensed under the  
+[**Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You may copy, remix, and build upon the material **for non-commercial purposes only**,  
+with proper credit and under the same license.
 
 ---
 
+## 👩‍💻 Contributors
+
+- **Ushneesh Chattopadhyay** – Institute of Engineering and Management (IEM), University of Engineering and Management Kolkata, IEM
+Centre of Excellence for InnovAI, Department of Computer Science & Engineering, Kolkata, West Bengal,
+India
+- **Anindita Das Bhattacharjee** – Institute of Engineering and Management (IEM), University of Engineering and Management Kolkata, IEM
+Centre of Excellence for InnovAI, Department of Computer Science & Engineering, Kolkata, West Bengal,
+India  
+- **Debashish Chakravarty** – Department of Mining Engineering, Indian Institute of Technology, Kharagpur, India  
+
+---
 ## 📚 Citation
 
 If you use this repository or model in your research, please cite:
